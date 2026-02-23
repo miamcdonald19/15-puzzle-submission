@@ -1,23 +1,52 @@
-# 15-puzzle
-Foundations of Programming project
-## Midterm Checkpoint 2
+# 15-Puzzle
 
-### Test Suite
-I created a unit test file called `test_puzzle.py` using Python’s unittest framework. 
-The tests verify:
-- The board starts solved
-- Legal adjacent moves work
-- Illegal moves fail
-- Scramble changes the board
-- Move count resets after scramble
+Foundations of Programming – Midterm Project
 
-All tests currently pass.
+## Project Description
 
-### What I’m Stuck On
-I am working on improving the scramble method to guarantee solvable boards and improving the UI interaction with puzzle logic.
+This project implements a working 15-puzzle game in Python.
 
-### Known Bugs
-Scramble currently randomizes without guaranteeing solvability.
+The puzzle:
+- Starts in a solved state
+- Allows legal tile movement into the blank space
+- Prevents illegal moves
+- Tracks the number of moves
+- Includes a scramble function
+- Detects when the puzzle is solved
 
-### Most Time-Consuming Part
-The most time-consuming part was debugging the move logic and making sure the test cases matched the intended behavior.
+A full test suite is included and all tests pass.
+
+---
+
+## How to Run the Project
+
+### Run the Game
+
+1. Open a terminal.
+2. Navigate to the project folder:
+   cd 15-puzzle-main
+3. Run:
+   python game.py
+
+### Run the Test Suite
+
+In the project folder, run:
+   python -m unittest -v test_puzzle.py
+
+All tests should pass.
+
+---
+
+## Files Included
+
+- `puzzle.py` – Core puzzle logic
+- `game.py` – Game interface
+- `test_puzzle.py` – Unit tests
+- `MIDTERM_REPORT.md` – Project reflection and documentation
+
+---
+
+## Current Status
+
+All tests pass successfully.
+There are no known major bugs at the time of submission.
