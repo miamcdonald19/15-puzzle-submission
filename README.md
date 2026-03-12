@@ -2,6 +2,8 @@
 
 Foundations of Programming – Midterm Project
 
+Mia McDonald & Heidi Sun
+
 ## Project Description
 
 This project implements a working 15-puzzle game in Python.
