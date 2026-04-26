@@ -1,6 +1,7 @@
 # Sliding Puzzle (15 Puzzle / 8 Puzzle)
 
 Foundations of Programming – Final Project
+Mia McDonald & Hiedi Sun 
 
 ## Project Description
 
